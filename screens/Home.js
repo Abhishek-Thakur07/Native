@@ -8,7 +8,7 @@ import RestaurantItems, {
 import SearchBar from "../Components/SearchBar";
 
 export default function Home() {
-  const [restaurant, setrestaurant] = useState([localRestaurants]);
+  const [restaurant, setrestaurant] = useState(localRestaurants);
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: "#eee" }}>
       <View style={{ backgroundColor: "white", padding: 15 }}>
